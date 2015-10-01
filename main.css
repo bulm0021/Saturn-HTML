@@ -19,7 +19,7 @@ Images
 http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
 ******************************/
 *{
-    padding: 20px;
+    padding: 20px; 
     margin: 0;
     box-sizing: border-box;
     font: 'Helvetica Neue', Calibri, Verdana, sans-serif;
@@ -27,7 +27,7 @@ http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
 }
 html, body{
     font-size: 3vh; /* default font-size = 1.0rem */
-    background-color: #222;
+    background-color: #444;
    
     
     
@@ -38,16 +38,15 @@ h1{
     text-align: center;
     text-shadow: 5px 0px 0.5px #000,
                  -2px 0px 0.5px gold;
-    
         
 }
 h3{
    color: #eee;
-    background-color: #444;
+    background-color: #222;
    
 }
 p{
-    background-color: #444;
+    background-color: #222;
     color: #d4d4d4;
     
 }
@@ -59,7 +58,7 @@ nav a:hover, nav a:active{
 
 }
 nav ul{
-    background-color: #444;
+    background-color: #222;
     text-align: center;
 }
 nav li{
@@ -73,13 +72,16 @@ nav li{
     
 }
 #wrapper{
-
+ padding: 200px;
+ 
+    
 }
 #masthead{
     background-image: url(/img/saturn.v1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 200px;
+    background-size: cover; 
+   
+    padding: 120px;
 }
 #main{
     
